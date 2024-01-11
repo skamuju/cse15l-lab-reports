@@ -2,10 +2,19 @@
 ---
 * cd
   - no arguments:
+  - At this time, the working directory was /home, we got the following output since we didn't provide any paths, 
+    and thus we recieved no output and our working directory didn't change
+  - This was not an error
   - ![Image](2024-01-11\ at\ 9.05.05\ AM.png)
   - path to directory:
+  - At this time, the working directory was /home, and our working directory changed to /home/lecture1 since that 
+    our intended change
+  - This was not an error 
   - ![Image](2024-01-11\ at\ 9.05.24\ AM.png)
-  - path to file: 
+  - path to file:
+  - At this time, the working directory was /home/lecture1, and our output occurred since `Hello.java` isn't a directory,
+    and we cannot change our working directory into it
+  - This was an error since we provided a file when asked for a directory
   - ![Image](2024-01-11\ at\ 9.05.47\ AM.png)
 * ls
   - no arguments:
