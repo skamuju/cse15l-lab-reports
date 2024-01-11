@@ -21,7 +21,7 @@
   - no arguments:
   - At the time, the working directory was /home, and our output gave us a list of all the objects in /home
   - This was not an error
-  - ![Image](Screen Shot 2024-01-11\ at\ 9.01.01\ AM.png)
+  - ![Image](Screen Shot 2024-01-11 at 9.01.01 AM.png)
   - path to directory:
   - At the time, the working directory was /home, and when provided with /home/lecture1, this command gave
     us all of the objects in lecture 1
