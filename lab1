@@ -35,9 +35,16 @@
 
 * cat
   - no arguments:
-  - At the time, the working directory 
+  - At the time, the working directory was /home, and the reason we got this output is the program was expecting 
+    an input but got none so the terminal didn't know what to do
+  - This was an error, since we didn't provide the proper input and the command messed with the terminal
   - ![Image](Screen Shot 2024-01-11\ at\ 9.08.43\ AM.png)
   - path to directory:
+  - At the time, the working directory was /home, and the reason we got this output is because our input was recognized  
+    as a path to a directory, and the program returned that this was an improper input
+  - This was not an error
   - ![Image](Screen Shot 2024-01-11\ at\ 9.09.10\ AM.png)
   - path to file: 
+  - At the time, the working directory was /home, and this was the correct input, since we specified a file to concatenate
+    and our command correctly wrote out the contents of the specified file
   - ![Image](Screen Shot 2024-01-11\ at\ 9.09.45\ AM.png)
