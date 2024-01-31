@@ -5,7 +5,7 @@
   - At this time, the working directory was `/home`, we got the following output since we didn't provide any paths, 
     and thus we recieved no output and our working directory didn't change
   - However, when going back and trying from the working directory `/saketh/Downloads`, when using `cd` with no arguments our working directory went out back to just `/saketh`.
-  - This was not an error
+  - This was not an error, as cd with no arguments sets our working directory back to the highest original working directory.
   - ![Image](images/lab1Images/Screen Shot 2024-01-11 at 9.05.05 AM.png)
   - ![Image](images/lab1Images/Screen Shot 2024-01-30 at 2.53.04 PM.png)
   - path to directory:
