@@ -13,8 +13,9 @@
     - This method then uses the existing `chatLog` String. Based off of the url Path, we get `/add-message` which then once again creates the String list `params`, which further splits the provided query by the &. From  `params`, we create `message` and `username`. We then update  the existing `chatLog` String which already has our previous usage with these variables along with adding a new line so the next messsage doesn't appear on the same line. Finally, our method once again returns `chatLog `. 
 * Part 2:
   - ![Image](images/lab2images/Screen Shot 2024-01-30 at 9.33.12 PM.png)
-  - From this image, we can see that the absolute path to my private key for my SSH key for logging into ieng6 is `/Users/saketh/.ssh/id_rsa`
-  - From this image, we can see that the absolute path to my public key for my SSH key for logging into ieng6 is `/Users/saketh/.ssh/id_rsa.pub`
-  - 
+  - From this image, we can see that the absolute path to my private key for my SSH key for logging into `ieng6` is `/Users/saketh/.ssh/id_rsa`
+  - From this image, we can see that the absolute path to my public key for my SSH key for logging into `ieng6` is `/Users/saketh/.ssh/id_rsa.pub`
+  - Here we can see an example of me logging into my account on `ieng6` without entering my password
+  - ![Image](images/lab2images/Screen Shot 2024-01-30 at 9.39.03 PM.png)
 * Part 3:
   - From this lab in week 3, I gained a much better understanding of how websites can handle queries. In the process of creating this simple webserver, I had to research how a my program could take in the given query from the url path and then use that to output the desired content.
