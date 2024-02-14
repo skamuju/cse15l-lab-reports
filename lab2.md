@@ -16,7 +16,7 @@
 * Part 2:
   - ![Image](images/lab2images/Screen Shot 2024-01-30 at 9.33.12 PM.png)
   - From this image, we can see that the absolute path to my private key for my SSH key for logging into `ieng6` is `/Users/saketh/.ssh/id_rsa`
-  - From this image, we can see that the absolute path to my public key for my SSH key for logging into `ieng6` is `/home/linux/ieng6/oce/0l/skamuju/.ssh/id_rsa.pub`
+  - From this image, we can see that the absolute path to my public key for my SSH key for logging into `ieng6` is `/home/linux/ieng6/oce/0l/skamuju/.ssh/authorized_keys`
   - Here we can see an example of me logging into my account on `ieng6` without entering my password
   - ![Image](images/lab2images/Screen Shot 2024-01-30 at 9.39.03 PM.png)
 * Part 3:
