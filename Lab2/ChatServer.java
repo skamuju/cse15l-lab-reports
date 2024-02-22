@@ -10,7 +10,7 @@ class Handler implements URLHandler {
         if (url.getPath().equals("/add-message")) {
             String[] params = url.getQuery().split("&");
             String message = params[0].split("=")[1];
-            String username = params[1].split("=")[1];
+            String username = params[1].split(  "=")[1];
             chatLog += username + ": " + message + "\n\n";
             return chatLog;
 
