@@ -28,24 +28,24 @@
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.33.09 PM.png)
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.33.30 PM.png)
   - Using `find` to search for files by name:
-  - Example 1:
+  - Example 1: `find . -name "*.java"`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.01.47 PM.png)
-  - Example 2:
+  - Example 2: `find . -name "chapter-1.txt"`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.02.22 PM.png)
   - Using `find` search for files by type:
-  - Example 1:
+  - Example 1: `find . -type d`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.04.10 PM.png)
-  - Example 2:
+  - Example 2: `find . -type l`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.05.13 PM.png)
   - Using `find` to execute commands on the found files:
-  - Example 1:
+  - Example 1: `find . -exec grep -l "hypotenuse" {} +`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.09.16 PM.png)
-  - Example 2:
+  - Example 2: `find . -exec grep -l "interior" {} +`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.09.40 PM.png)
   - Using `find` to search for files by size:
-  - Example 1:
+  - Example 1: `find . -size -2k`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.13.25 PM.png)
-  - Example 2:
+  - Example 2: `find . -size -3k`
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.13.40 PM.png)
 * Summary of ChatGPT usage:
   - In this Lab Report I used ChatGPT to help search for information and understand commands that I talked about and used in this report. Although ChatGPT presented me with the different ways to use the `find` command, I still went through and experimented with each command on the `./technical` directory, and I edited the command syntax to fit what I wanted to show in this report and how it could be used in the files within my working directory.
