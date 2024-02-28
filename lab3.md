@@ -3,8 +3,8 @@
 * Part 1:
   - failure inducing input for the `reversed()` method from `ArrayExamples`:
  ```
-    @Test
-  public void testReversedFull() {
+     @Test
+    public void testReversedFull() {
     int[] input = new int[]{1,2,3};
     int[] revInput = new int[]{3,2,1};
     assertArrayEquals(revInput, ArrayExamples.reversed(input));
