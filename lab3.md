@@ -9,8 +9,8 @@
     assertArrayEquals(revInput, ArrayExamples.reversed(input));
     }`
   - non-failure inducing input for the `reversed()` method from `ArrayExamples`:
-  -  `@Test
-  public void testReversedEmpty() {
+  - `@Test
+    public void testReversedEmpty() {
     int[] input = new int[]{};
     assertArrayEquals(input, ArrayExamples.reversed(input));
     }`
@@ -24,4 +24,28 @@
   - To fix this code, all I had to do was ensure the `newArr` was being updated with the proper elements from the input, `arr`, and update the return statement so that `newArr` was being returned.
 * Part 2:
   - For this part of the lab report, I chose to focus on the `find` command
-  - 
+  - I started by presenting this query to ChatGPT, which provided the following response:
+  - ![Image]()
+  - ![Image]()
+  - Using `find` to search for files by name:
+  - Example 1:
+  - ![Image]()
+  - Example 2:
+  - ![Image]()
+  - Using `find` search for files by type:
+ - Example 1:
+  - ![Image]()
+  - Example 2:
+  - ![Image]()
+  - Using `find` to execute commands on the found files:
+  - Example 1:
+  - ![Image]()
+  - Example 2:
+  - ![Image]()
+  - Using `find` to search for files by size:
+  - Example 1:
+  - ![Image]()
+  - Example 2:
+  - ![Image]()
+* Summary of ChatGPT usage:
+  - In this Lab Report I used ChatGPT to help search for information and understand commands that I talked about and used in this report. Although ChatGPT presented me with the different ways to use the `find` command, I still went through and experimented with each command on the `./technical` directory, and I edited the command syntax to fit what I wanted to show in this report and how it could be used in the files within my working directory.
