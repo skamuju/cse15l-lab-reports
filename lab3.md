@@ -25,8 +25,8 @@
 * Part 2:
   - For this part of the lab report, I chose to focus on the `find` command
   - I started by presenting this query to ChatGPT, which provided the following response:
-  - ![Image]()
-  - ![Image]()
+  - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.33.09 PM.png)
+  - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.33.30 PM.png)
   - Using `find` to search for files by name:
   - Example 1:
   - ![Image](images/lab3images/Screen Shot 2024-02-27 at 9.01.47 PM.png)
