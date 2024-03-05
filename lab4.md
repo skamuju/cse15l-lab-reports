@@ -18,5 +18,5 @@
   - In this screenshot I ran, `bash test.sh` which compiled and ran tests on the code provided, and after our earier editing, all the tests passed.
 * Step 9:
   - ![Image](images/lab4images/Screen Shot 2024-02-22 at 9.29.48 AM.png)
-  - In this screenshot, I save the changes I made to the files in my commit, created a commit message, and pushed those changes back to tha main branch of my forked repository.
-  - The commands I ran were as follows: `git commit -m Fixed ListExamples.java` and `git push`.
+  - In this screenshot, I specify the changes I want to be pushed to the repository, I save the changes I made to the files in my commit, created a commit message, and pushed those changes back to tha main branch of my forked repository.
+  - The commands I ran were as follows: `git add .` and `git commit -m Fixed ListExamples.java` and `git push`.
