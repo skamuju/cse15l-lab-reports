@@ -18,5 +18,6 @@
   - In this screenshot I ran, `bash test.sh` which compiled and ran tests on the code provided, and after our earier editing, all the tests passed.
 * Step 9:
   - ![Image](images/lab4images/Screen Shot 2024-03-05 at 3.06.15 PM.png)
-  - In this screenshot, I specify the changes I want to be pushed to the repository, I save the changes I made to the files in my commit, created a commit message, and pushed those changes back to tha main branch of my forked repository.
+  - In this screenshot, I specify the changes I want to be pushed to the repository (`git add .` adds all changes made to a commit), I save the changes I made to the files in my commit, created a commit message, and pushed those changes back to tha main branch of my forked repository.
   - The commands I ran were as follows: `git add .` and `git commit -m Fixed ListExamples.java` and `git push`.
+  - (This screenshot was taken after I had already finished fixing `ListExamples.java`, and as such the number of changes and the changes pushed in the screenshot are different. I simply added an indentation in the already fixed `ListExamples.java` to display using the `git add`, `git commit`, and `git push` commands.)
