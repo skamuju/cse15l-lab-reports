@@ -3,11 +3,13 @@
 * Part 1:
   - Student: I am having some issues with my grading bash script, and I am not sure why it isn't working. I keep getting an issue saying that ListExamples.java is not found, even though my `git clone` command successfully runs
   - TA: Can you show me a picture of your Terminal output and your script?
-  - Student: Sure
-  - ![Image]()
+  - Student: Sure. Here is the output and the script in that order:
+  - ![Image](images/lab5images/Screen Shot 2024-03-12 at 9.05.39 PM.png)
   - ![Image]()
   - TA: It seems like your script cannot find `ListExamples.java` from where it is working in. Maybe consider throwing in an `ls` command to see what your script is looking at when searching for `ListExamples.java`. Try that and get back to me with your output.
   - Student: I tried it and here is my output. I realized that my script is not operating in the right directory, so I added `cd grading area` right before I search for `ListExamples.java`. My script seems to be working now!
+  - ![Image](images/lab5images/Screen Shot 2024-03-12 at 9.09.41 PM.png)
+  - Student: And here is my output now that the script is working:
   - ![Image]()
   - TA: Good job and good luck on the rest of the assignment!
 * Part 2:
