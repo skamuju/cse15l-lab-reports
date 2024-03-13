@@ -7,7 +7,7 @@
   - ![Image]()
   - ![Image]()
   - TA: It seems like your script cannot find `ListExamples.java` from where it is working in. Maybe consider throwing in an `ls` command to see what your script is looking at when searching for `ListExamples.java`. Try that and get back to me with your output.
-  - Student: I tried it and here is my output. I realized that my script is not operating in the right directory, so I added `cd grading area` right before I search for `ListExamples.java`, and removed the `ls` statement. My script seems to be working now!
+  - Student: I tried it and here is my output. I realized that my script is not operating in the right directory, so I added `cd grading area` right before I search for `ListExamples.java`. My script seems to be working now!
   - ![Image]()
   - TA: Good job and good luck on the rest of the assignment!
 * Part 2:
