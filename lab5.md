@@ -15,9 +15,11 @@
     - TA: Good job and good luck on the rest of the assignment!
   - Setup Information:
     - File and Directory Structure:
-      - .
+      -![Image](images/lab5images/Screen Shot 2024-03-12 at 9.42.04 PM.png)
     - Contents of files before bugs fixed:
-      - .
+      - The only affected file in this scenario was `grade.sh`. As such, here is the before and after:
+        - Before: ![Image](images/lab5images/Screen Shot 2024-03-12 at 9.17.46 PM.png)
+        - After: ![Image](images/lab5images/Screen Shot 2024-03-12 at 9.13.57 PM.png)
     - Commands used to trigger the bug(s):
       - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
     - A description of what to edit to fix the bug:
