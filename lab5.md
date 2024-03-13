@@ -2,7 +2,7 @@
 ---
 * Part 1:
   - Edstem Discussion:
-    - Student: I am having some issues with my grading bash script, specifically ensuring that all the files are present and the JUnit test are working before calculating a grade, and I am not sure why it isn't working. I keep getting an issue saying that `ListExamples.java` is not found, even though my `git clone` command successfully runs
+    - Student: I am having some issues with my grading bash script, specifically ensuring that all the files are present and the JUnit test are working before calculating a grade, and I am not sure why it isn't working. I keep getting an issue saying that `ListExamples.java` is not found, even though my `git clone` command successfully runs. I think maybe my script is cloning the repository into the wrong place?
     - TA: Can you show me a picture of your Terminal output and your script?
     - Student: Sure. Here is the output and the script in that order:
       - ![Image](images/lab5images/Screen Shot 2024-03-12 at 9.05.39 PM.png)
